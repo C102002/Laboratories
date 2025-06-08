@@ -16,11 +16,14 @@ This repository contains several laboratory projects for exploring various topic
 
 - **Lab 2: Feature Engineering and Selection**  
   **Folder:** `laboratorio_2`  
-  _Description:_ Discover methods for creating and selecting the most relevant features for your models.
+  _Description:_ Discover methods for creating and selecting the most relevant features for your models.  
 
-- **Lab 3: Regression with Regularization**  
+  **Resumen sobre Perceptrones Multicapa (MLP):**  
+  Los MLP extienden el perceptrón simple para abordar problemas no lineales, combinando capas de transformaciones lineales y funciones de activación no lineal. Esta arquitectura permite aproximar funciones complejas y capturar relaciones intrincadas entre variables, siendo esencial en tareas de clasificación y regresión.
+
+- **Lab 3: Credit Approve**  
   **Folder:** `laboratorio_3`  
-  _Description:_ Implement regression techniques like Lasso and Elastic Net to manage multicollinearity and improve predictions.
+  _Description:_ Diseñar un modelo MLP (MultiLayer Perceptron) que sea capaz de determinar si se debe aprobar o no un préstamo a una persona. Adicionalmente, la entrega final debe incluir un programa interactivo que permita al usuario ingresar datos clave y, en función de ese input, proporcionar una recomendación sobre la aprobación del crédito.
 
 - **Lab 4: Classification and Model Evaluation**  
   **Folder:** `laboratorio_4`  
