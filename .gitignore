@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+lib/
+sdist/
+*.egg-info/
+.installed.cfg
+*.whl
+MANIFEST.in
+
+# PyInstaller related
+build
+dist
+*.spec
+__pycache__
+
+# Jupyter Notebook related
+.ipynb_checkpoints
+
+# Environments
+.env
+env/
+**/venv/  # Ignore all virtual environment folders named 'venv' in any path
+ENV/
+environment/
+venv3/
+pyvenv.cfg
+.project
+.settings
+.pydevproject
+
+# Ignore all virtual environment folders named 'venv' in any path
+**/venv/
+
+
+# Unit test / coverage reports
+.coverage
+coverage/
+*.py,cover
+.pytest_cache/
+nosetests.xml
+doctests.txt
+*.egg-info
+
+# Translations
+*.mo
+*.pot
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
