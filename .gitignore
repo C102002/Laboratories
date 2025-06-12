@@ -3,8 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# segments
+# archivos de salida
 **/segments
+
 # C extensions
 *.so
 

@@ -29,6 +29,21 @@ pip freeze > requirements.txt
 # En la ruta del laboratorio_7
 # (.venv) PS C:\..\laboratorio_7> python .\laboratorio_7.py
 python .\laboratorio_7.py
+
+# Despues de correr la transcripcion
+python .\laboratorio_7_parte_2.py
+
+```
+5. Extra
+Intalacion de dependencias manual
+```bash
+# En windows
+pip install huggingsound --no-deps
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install datasets transformers jiwer librosa spacy pydub pyspellchecker
+python -m spacy download es_core_news_sm
+pip install spacy
+python -m spacy download es_core_news_sm
 ```
 
 # 🎤 Extra: Modelo de Speech Recognition para Análisis de Video
